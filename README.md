@@ -1,1 +1,1 @@
-https://PhilipMartysiuk.github.io/rsschool-cv/cv
+https://PhilipMartysiukt add ..github.io/rsschool-cv/cv
