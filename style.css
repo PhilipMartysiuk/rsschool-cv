@@ -1,4 +1,4 @@
- body {
+body {
     font-family: 'Roboto', sans-serif; font-weight:bold;
     display: flex;
     flex-direction: column;
@@ -6,12 +6,21 @@
     border: 1px solid red;
     min-height: 100vh;
     margin: 0; padding: 0;
- }
+
+    
+}
  * {
         box-sizing: border-box;
-      }
+    }
 
-      .container {
+
+.container {
         max-width: 1440px;
         margin: 0 auto;
-      }
+}
+
+.nav-list {
+    display:flex;
+    justify-content:space-around;
+    align-items:normal;
+  }
