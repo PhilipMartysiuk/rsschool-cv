@@ -1,10 +1,78 @@
+.header {
+    background: rgb(212,214,161);
+    background: linear-gradient(0deg, rgba(212,214,161,0.528470763305322) -17%, rgba(167,154,22,1) 100%);
+}
+
+.header-container {
+    display: flex;
+    justify-content: flex-end;
+}
+.nav-list {
+    display:flex;
+    justify-content:space-around;
+    align-items:normal;
+    list-style: none;
+}
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    text-decoration: none;
+    transition: 0.3s;
+    cursor: pointer
+}
+
+.nav-item a {
+    color: #1b1d1b;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+.nav-item a:hover {
+    color: #dde5d7;
+}
+
+.profile-container {
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items: center;
+    padding: 5%;
+
+}
+
+.info-section {
+    text-align: center;
+    align-content: center;
+    width: 50%;
+    height: 50%;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #829985;
+}
+
+.photo-section {
+    width: 132px;
+    height: 132px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 50%;
+
+}
+.photo {
+    width: auto;
+    height: 100%;
+    margin: 0 auto;
+}
+
+
 
 body {
     font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    border: 1px solid red;
     min-height: 100vh;
     margin: 0; padding: 0;
     font-size: 18px;
@@ -16,40 +84,19 @@ body {
         box-sizing: border-box;
     }
 
-
 .container {
     max-width: 1440px;
     margin: 0 auto;
-}
-
-.nav-list {
-    display:flex;
-    justify-content:space-around;
-    align-items:normal;
-    list-style: none;
 }
 
 html {
     scroll-behavior: smooth;
 }
 
-.nav-link {
-    padding: 0 20px;
-    line-height: 50px;
-    text-decoration: none;
-    transition: 0.3s;
-    cursor: pointer
-}
 
 
-.nav-item a {
-    color: #829985;
-    text-decoration: none;
-    transition: color 0.5s;
-}
-.nav-item a:hover {
-    color: #4d2323; background: #829985;
-}
+
+
 
 
 .main-container {
