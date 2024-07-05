@@ -50,7 +50,7 @@ html {
 }
 
 .info-section {
-    text-align: center;
+    text-align: left;
     align-content: center;
     width: 50%;
     height: 50%;
@@ -133,4 +133,13 @@ body {
 }
 h5#skill {
     margin-bottom: 1em;
+}
+
+.skills-flex-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skill#skill {
+    width: 50%
 }
