@@ -2,6 +2,32 @@ html {
     scroll-behavior: smooth;
 }
 
+@media (max-width:800px){
+.section#contacts{
+    width: 100%;
+    float: nones}
+}
+    
+@media (max-width:800px){
+.section#summary{
+width: 100%;
+float: none;}
+}
+
+@media (max-width:800px){
+    .section#skills{
+    width: 100%;
+    float: none;}
+}
+        
+
+@media (max-width:800px){
+    .section#experience{
+    width: 100%;
+    float: none;}
+}
+
+
 * {
     box-sizing: border-box;
 }
@@ -116,12 +142,13 @@ body {
 
 
 .section-title{
-    text-align:center;
+    text-align:left;
     font-size: 20px;
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 5px;
     color: rgb(85, 107, 47)
+
 }
 
 .section-text {
@@ -174,4 +201,28 @@ ul#cont-mark {
 
 h5#cont {
     text-align:left;
+}
+
+.section-line {
+	padding: 0;
+	height: 6px;
+	border: none;
+	background: linear-gradient(45deg, #333, #ddd);
+    margin-left: 10%;
+    margin-right: 10%; 
+ }
+    
+.section-line-short{
+        padding: 0;
+        height: 6px;
+        border: none;
+        background: linear-gradient(45deg, #333, #ddd);
+        margin-right: 5%; 
+}
+.section-text {
+    display:contents;
+}
+
+.section#summary {
+    vertical-align: middle
 }
