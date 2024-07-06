@@ -245,8 +245,34 @@ width: 50%;
     margin-left: 5%;
     margin-right: 10%;
     text-align: justify;
+
 }
 
 pre{
     white-space: pre-wrap;
+}
+
+footer {
+background: rgb(237, 238, 229);
+background: linear-gradient(0deg, rgba(85,107,47) -17% ,#d4d6a187 100%);
+}
+
+.footer-container{
+    display: flex;
+    justify-content:space-between;
+    margin-right: 10%;  
+    margin-left: 10%;
+    justify-content: center;
+}
+
+.footer-nav{
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    list-style: none;
+    color:#f5f8f5;
+}
+.nav-item-logo{
+    justify-content: center;
+    align-content: center;
 }
