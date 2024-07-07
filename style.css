@@ -240,16 +240,12 @@ width: 50%;
 }
 
 .code-wrapper{
-    text-align: left;
     font-size: 10px;
     margin-left: 5%;
     margin-right: 10%;
-    text-align: justify;
-
 }
-
 pre{
-    white-space: pre-wrap;
+    white-space: pre-line;
 }
 
 footer {
@@ -275,4 +271,7 @@ background: linear-gradient(0deg, rgba(85,107,47) -17% ,#d4d6a187 100%);
 .nav-item-logo{
     justify-content: center;
     align-content: center;
+}
+main{
+    padding-bottom: 5%;
 }
